@@ -25,6 +25,7 @@ def get_5_trending_stories():
     with open(fpath, "r") as f:
         return f.read()   
 def main():
+    
     parser = argparse.ArgumentParser()
     argparse.ArgumentParser(description='Collect trending stories from the Montreal Gazette')
     args = parser.parse_args()
